@@ -1,0 +1,29 @@
+{
+  "name": "open-webapp",
+  "version": "0.1.0",
+  "description": "An opinionated lean and performant web application starter ",
+  "main": "./src/index.js",
+  "repository": "git@github.com:thegreenhouseio/open-webapp.git",
+  "author": "Owen Buckley <owenbuckley13@gmail.com>",
+  "license": "Apache-2.0",
+  "scripts": {
+    "build": "rimraf ./build && eslint *.js && webpack --config ./webpack.config.prod.js -p",
+    "develop": "webpack-dev-server --config ./webpack.config.develop.js --open",
+    "serve": "yarn run build && cd build && http-server"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.1",
+    "eslint": "^4.17.0",
+    "eslint-loader": "^1.9.0",
+    "file-loader": "^1.1.6",
+    "html-webpack-plugin": "^2.30.1",
+    "http-server": "^0.11.1",
+    "uglify-js": "git://github.com/mishoo/UglifyJS2#harmony-v2.8.22",
+    "url-loader": "^0.6.2",
+    "webpack": "^3.11.0",
+    "webpack-dev-server": "^2.11.1",
+    "webpack-merge": "^4.1.1"
+  }
+}
