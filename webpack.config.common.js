@@ -1,16 +1,18 @@
 const HtmlWebpackPlugin = require('html-webpack-plugin');
+// const ScriptExtHtmlWebpackPlugin = require('script-ext-html-webpack-plugin');
 const path = require('path');
 
 module.exports = {
   context: path.resolve('./src'),
 
   entry: {
-    index: './index'
+    index: './index',
+    vendor: './vendor'
   },
 
   output: {
     path: path.resolve(__dirname, 'build'),
-    filename: '[name].[hashname].js'
+    filename: '[name].[chunkhash].bundle.js'
   },
 
   module: {
@@ -19,12 +21,13 @@ module.exports = {
       enforce: 'pre',
       loader: 'eslint-loader',
       exclude: path.join(__dirname, 'node_modules')
-    }, {
-      test: /\.js$/,
-      loaders: [
-        'babel-loader'
-      ],
-      exclude: path.join(__dirname, 'node_modules')
+    // TODO
+    // }, {
+    //   test: /\.js$/,
+    //   loaders: [
+    //     'babel-loader'
+    //   ],
+    //   exclude: path.join(__dirname, 'node_modules')
     }, {
       test: /\.woff(2)?(\?v=[0-9]\.[0-9]\.[0-9])?$/,
       loader: 'url-loader?limit=10000&mimetype=application/font-woff'

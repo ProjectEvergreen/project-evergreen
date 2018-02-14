@@ -3,6 +3,8 @@ const webpackMerge = require('webpack-merge');
 
 module.exports = webpackMerge(commonConfig, {
 
+  devtool: 'eval',
+  
   devServer: {
     port: 1981,
     host: 'localhost',
