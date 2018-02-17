@@ -5,12 +5,12 @@ import css from './home.css';
 class Home extends HTMLElement {
   constructor() {
     super();
-    
+
     const helloService = new HelloService();
+    
+    this.message = helloService.sayHello('Owen');
 
     this.root = this.attachShadow({ mode: 'closed' });
-    this.message = helloService.sayHello('Owen');
-    
     render(this.template(), this.root);
   }
 
