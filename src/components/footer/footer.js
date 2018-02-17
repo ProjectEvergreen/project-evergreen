@@ -5,7 +5,7 @@ class Footer extends HTMLElement {
   constructor() {
     super();
     
-    this.root = this.attachShadow({ mode: 'open' });
+    this.root = this.attachShadow({ mode: 'closed' });
     render(this.template(), this.root);
   }
 

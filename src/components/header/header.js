@@ -14,6 +14,7 @@ class Header extends HTMLElement {
       <style>
         ${css}
       </style>
+      
       <header>This is the custom Header element</header>
     `;
   }
