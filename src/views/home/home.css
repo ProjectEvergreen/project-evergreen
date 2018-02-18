@@ -1,4 +1,14 @@
 :host {
   display: flex;
   justify-content: center;
+  margin-bottom: 15px;
+
+  & .welcome-text-heading {
+    text-decoration: underline;
+    color: red;
+  }
+
+  & .welcome-text-body {
+    color: green;
+  }
 }

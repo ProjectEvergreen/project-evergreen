@@ -1,6 +1,7 @@
 import { html, render } from 'lit-html';
 import HelloService from '../../services/hello-service';
 import css from './home.css';
+// import viewHtml from './home.html';
 
 class Home extends HTMLElement {
   constructor() {
@@ -20,7 +21,12 @@ class Home extends HTMLElement {
         ${css}
       </style>
 
-      <h1>${this.message}</h1>
+      <div>
+        
+        <h2 class="welcome-text-heading">Welcome to The Open Webapp Seed project!</h2>
+        <p class="welcome-text-body">This is a sample project to demonstrate a basic Open Webapp implementation.</p>
+    
+      </div>
     `;
   }
 }
