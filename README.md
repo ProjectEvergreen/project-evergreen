@@ -19,11 +19,15 @@ The goal of this project is to help provide non-technical businesses and organiz
 1. Focus on Developer Experience for rapid development
 1. Unit testing / E2E Testing
 1. Fully integrates with CI / CD environments
+1. Do it all in JS, or with templates / external files (performance considerations?)
 
 All features, configurations and workflows are documented on the [wiki](https://github.com/thegreenhouseio/open-webapp/wiki).
 
 ## Key Technologies
-1. [webpack](https://webpack.js.org/) - module bundler 
+1. [webpack](https://webpack.js.org/) - Module bundler for building the application
+1. [babel](https://babeljs.io/) - Write tomorrow's JavaScript today
+1. [postCSS](http://postcss.org/) - Plugin based tooling for writing tomorrow's CSS today
+1. [lit-html](https://github.com/Polymer/lit-html) - Runtime library for HTML Templating in JavaScript
 
 ## Development
 - `yarn build` - build the app

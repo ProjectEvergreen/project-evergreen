@@ -29,6 +29,10 @@ module.exports = {
     //   ],
     //   exclude: path.join(__dirname, 'node_modules')
     }, {
+      test: /\.css$/,
+      use: ['css-to-string-loader', 'css-loader', 'postcss-loader'],
+      exclude: path.join(__dirname, 'node_modules')
+    }, {
       test: /\.woff(2)?(\?v=[0-9]\.[0-9]\.[0-9])?$/,
       loader: 'url-loader?limit=10000&mimetype=application/font-woff'
     }, {
