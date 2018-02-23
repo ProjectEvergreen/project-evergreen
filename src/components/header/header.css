@@ -1,4 +1,24 @@
 :host {
   display: flex;
   justify-content: center;
+  text-align: center;
+  margin-bottom: 20px;
+  cursor: pointer;
+
+  & .header-text {
+    margin: 0 auto;
+  }
+
+  & .header-banner {
+    background: url("./images/banner.gif");
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 250px;
+    width: 100%;
+  }
+
+  & .io-text {
+    width: 50px;
+    margin: 0 auto;
+  }
 }

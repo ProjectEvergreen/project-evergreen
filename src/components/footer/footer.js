@@ -15,7 +15,9 @@ class Footer extends HTMLElement {
         ${css}
       </style>
       
-      <footer>This is the custom Footer element</footer>
+      <footer>
+        <a href="https://www.thegreenhouseio.io">The Greenhouse.io</a>
+      </footer>
     `;
   }
 }

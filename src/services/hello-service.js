@@ -1,13 +1,11 @@
 class HelloService {
   
-  constructor() {
-    console.debug('Creating new instance of Hello World Service'); // eslint-disable-line
+  constructor(name = '') {
+    this.subject = name === '' ? 'World' : name; 
   }
 
-  sayHello(name = '') {
-    const subject = name === '' ? 'World' : name;
-
-    return `Hello ${subject}!`;
+  sayHello() {
+    return `Hello ${this.subject}`;
   }
 
 }

@@ -15,7 +15,15 @@ class Header extends HTMLElement {
         ${css}
       </style>
       
-      <header>This is the custom Header element</header>
+      <header>        
+
+        <h2 class="header-text">The Greenhouse</h2>
+        
+        <div class="header-banner"></div>
+        
+        <p class="io-text">.io</p>
+    
+      </header>
     `;
   }
 }
