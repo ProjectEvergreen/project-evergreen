@@ -26,6 +26,10 @@ Our goals are clear: _Be easy to write, be easy to maintain, and be easy to depl
 
 ### Outstanding Items
 1. [ ] Unit testing / E2E Testing
+1. [ ] Production JavaScript bundling (modules vs webpack?)
+1. [ ] CSS Production bundling (with or without webpack?)
+1. [ ] Routing w/ lazy loading
+1. [ ] Define Evergreen browser support matrix
 1. [ ] Server Side Rendering
 1. [ ] Integration with backends / headless CMS
 1. [ ] Progressive Web Application compatible 
