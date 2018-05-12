@@ -1,25 +1,36 @@
-# open-webapp
-An opinionated frontend repository ideal for lean and performant web applications
+# project-evergreen
+A frontend repository designed for lean, performant, and sustainable web applications.
 
 ## Objectives
-The goal of this project is to help provide non-technical businesses and organizations an opinionated, curated, and simple project starter for building dynamic web applications.  The goals are clear, be easy to write, easy to maintain, and easy to deploy.  
+The mission of Project Evergreen is to provide a curated web application starter kit for building dynamic, performant, and evergreen (naturally) web applications.  
+
+The project's motivations is rooted in the belief that applications should be as standards compliant as possible.  In the current web renassaince, the web platform now gives us so much for free, like:
+* Powerful language features like Web Components that capture our preferences for component based development
+* Long-term, backwards compatibility support from the web platform itself
+* Prefering the use of polyfills over frameworks
+* Positive developer experiences to support rapid development by leveraging great tools like yarn, webpack, and babel.
+
+Our goals are clear: _Be easy to write, be easy to maintain, and be easy to deploy._  
 
 ### Features and Motivations
-1. Ideal for small / medium dynamic single page applications
-1. Modern JavaScript using ES2015+
-1. Modern CSS w/Flexbox and CSS Grid
-1. Web Component Driven Development with state management targetting modern browsers
-1. Functional UI Components w/declaritve templating
-1. Minimal Dependencies, avoiding major "vendors" where possibleerf
-1. Like with Polymer, "Use the Platform"
-1. Progressive Web Application compatible and Lighthouse complient
-1. Fast and Performant, built with webpack
-1. Server Side Rendering
-1. Integration with backends / headless CMS
-1. Focus on Developer Experience for rapid development
-1. Unit testing / E2E Testing
-1. Fully integrates with CI / CD environments
-1. Do it all in JS, or with templates / external files (performance considerations?)
+- Ideal for small to medium dynamic single page applications
+- Targetting modern browsers
+- Modern JavaScript using ES2015+ (polyfills > frameworks)
+- Modern CSS w/Flexbox and CSS Grid
+- Web Components Driven Development with state management
+- Functional UI Components w/declaritve templating
+- Minimal Dependencies (polyfills > frameworks)
+- Evergreen tooling to support Evergreen browser
+- Like with Polymer, "Use the Platform"
+- Focus on Developer Experience for rapid development
+
+### Outstanding Items
+1. [ ] Unit testing / E2E Testing
+1. [ ] Server Side Rendering
+1. [ ] Integration with backends / headless CMS
+1. [ ] Progressive Web Application compatible 
+1. [ ] Lighthouse compliant
+1. [ ] Do it all in JS, or with templates / external files (performance considerations?)
 
 All features, configurations and workflows are documented on the [wiki](https://github.com/thegreenhouseio/open-webapp/wiki).
 
