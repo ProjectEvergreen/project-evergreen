@@ -25,16 +25,15 @@ Our goals are clear: _Be easy to write, be easy to maintain, and be easy to depl
 - Focus on Developer Experience for rapid development
 
 ### Outstanding Items
-1. [ ] Unit testing / E2E Testing
-1. [ ] Production JavaScript bundling (modules vs webpack?)
-1. [ ] CSS Production bundling (with or without webpack?)
-1. [ ] Routing w/ lazy loading
-1. [ ] Define Evergreen browser support matrix
-1. [ ] Server Side Rendering
-1. [ ] Integration with backends / headless CMS
-1. [ ] Progressive Web Application compatible 
-1. [ ] Lighthouse compliant
-1. [ ] Do it all in JS, or with templates / external files (performance considerations?)
+1. [ ] [Unit testing / E2E Testing](https://github.com/thegreenhouseio/project-evergreen/issues/1)
+1. [ ] [Production JavaScript bundling](https://github.com/thegreenhouseio/project-evergreen/issues/5) (modules vs webpack?)
+1. [ ] [CSS Production bundling](https://github.com/thegreenhouseio/project-evergreen/issues/4) (with or without webpack?)
+1. [ ] [Routing based code splitting w/ lazy loading](https://github.com/thegreenhouseio/project-evergreen/issues/2)
+1. [ ] [Define Evergreen browser support matrix](https://github.com/thegreenhouseio/project-evergreen/issues/3)
+1. [ ] [Server Side Rendering support / example](https://github.com/thegreenhouseio/project-evergreen/issues/10)
+1. [ ] [Example w/ with Headless CMS](https://github.com/thegreenhouseio/project-evergreen/issues/8)
+1. [ ] [Progressive Web Application support / example](https://github.com/thegreenhouseio/project-evergreen/issues/9) 
+1. [ ] [Lighthouse compliant](https://github.com/thegreenhouseio/project-evergreen/issues/11)
 
 All features, configurations and workflows are documented on the [wiki](https://github.com/thegreenhouseio/open-webapp/wiki).
 
