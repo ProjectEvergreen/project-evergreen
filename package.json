@@ -21,11 +21,11 @@
     "css-loader": "^0.28.9",
     "css-to-string-loader": "^0.1.3",
     "cssnano": "^3.10.0",
-    "eslint": "^4.17.0",
-    "eslint-loader": "^1.9.0",
+    "eslint": "^4.19.1",
+    "eslint-loader": "^2.0.0",
     "file-loader": "^1.1.6",
     "html-critical-webpack-plugin": "^1.1.0",
-    "html-webpack-plugin": "^2.30.1",
+    "html-webpack-plugin": "^3.2.0",
     "http-server": "^0.11.1",
     "postcss-cssnext": "^3.1.0",
     "postcss-loader": "^2.1.0",
@@ -33,8 +33,9 @@
     "sugarss": "^1.0.1",
     "uglify-js": "git://github.com/mishoo/UglifyJS2#harmony-v2.8.22",
     "url-loader": "^0.6.2",
-    "webpack": "^3.11.0",
-    "webpack-dev-server": "^2.11.1",
+    "webpack": "^4.8.2",
+    "webpack-cli": "^2.1.3",
+    "webpack-dev-server": "^3.1.4",
     "webpack-merge": "^4.1.1"
   }
 }

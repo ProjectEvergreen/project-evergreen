@@ -1,13 +1,12 @@
 const commonConfig = require('./webpack.config.common');
-// const UglifyJSPlugin = require('uglifyjs-webpack-plugin');
 const webpack = require('webpack');
 const webpackMerge = require('webpack-merge');
 
 module.exports = webpackMerge(commonConfig, {
   
-  // TODO make uglify play nice with and without Babel
+  mode: 'production',
+
   plugins: [
-    // new UglifyJSPlugin()
     new webpack.optimize.ModuleConcatenationPlugin()
   ]
   
