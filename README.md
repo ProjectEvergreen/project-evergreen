@@ -23,7 +23,7 @@ Ultimately, our apps need to please our users.  Project Evergreen believes that 
 * Lower the barrier to entry for all users
 * Only give users what they need, when they need it
 * Drive engagement through runtime performance and responsiveness
-* Security and Trust
+* Operate with security and trust in mind
 
 ### Objectives
 - Ideal for small to medium dynamic single page applications
@@ -40,18 +40,9 @@ Ultimately, our apps need to please our users.  Project Evergreen believes that 
 Please see our [wiki](https://github.com/thegreenhouseio/project-evergreen/wiki) for information about usage, examples, and more.
 
 ### Outstanding Items
-1. [ ] [Unit testing / E2E Testing](https://github.com/thegreenhouseio/project-evergreen/issues/1)
-1. [ ] [Works with Web Components from webcomponents.org]()
-1. [ ] [Production JavaScript bundling](https://github.com/thegreenhouseio/project-evergreen/issues/5) (modules vs webpack?)
-1. [ ] [CSS Production bundling](https://github.com/thegreenhouseio/project-evergreen/issues/4) (with or without webpack?)
-1. [ ] [Routing based code splitting w/ lazy loading](https://github.com/thegreenhouseio/project-evergreen/issues/2)
-1. [ ] [Define Evergreen browser support matrix](https://github.com/thegreenhouseio/project-evergreen/issues/3)
-1. [ ] [Server Side Rendering support / example](https://github.com/thegreenhouseio/project-evergreen/issues/10)
-1. [ ] [Example w/ with Headless CMS](https://github.com/thegreenhouseio/project-evergreen/issues/8)
-1. [ ] [Progressive Web Application support / example](https://github.com/thegreenhouseio/project-evergreen/issues/9) 
-1. [ ] [Lighthouse compliant](https://github.com/thegreenhouseio/project-evergreen/issues/11)
+See our [projects](https://github.com/thegreenhouseio/project-evergreen/projects) and [milestones](https://github.com/thegreenhouseio/project-evergreen/milestones) to view our general Roadmap and priorities.
 
-Thoughts
+### General Thoughts
 - WebAssembly example?
 - 
 
