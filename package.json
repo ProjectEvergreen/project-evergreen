@@ -31,7 +31,6 @@
     "postcss-loader": "^2.1.0",
     "style-loader": "^0.20.1",
     "sugarss": "^1.0.1",
-    "uglify-js": "git://github.com/mishoo/UglifyJS2#harmony-v2.8.22",
     "url-loader": "^0.6.2",
     "webpack": "^4.8.2",
     "webpack-cli": "^2.1.3",
