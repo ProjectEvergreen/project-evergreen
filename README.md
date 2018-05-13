@@ -1,18 +1,30 @@
 # project-evergreen
-A frontend repository designed for lean, performant, and sustainable web applications. Inspired by the Poylmer project.
+A frontend repository designed for lean, performant, and sustainable web applications. Inspired by the [Poylmer](https://www.polymer-project.org/) project.
 
-## Objectives
-The mission of Project Evergreen is to provide a curated web application starter kit for building dynamic, performant, and evergreen (naturally) web applications that is designed to be easy to understand and intuitive.
+## Overview
 
-The project's motivations are rooted in the belief that applications should be as standards compliant as possible.  In the current web development renassaince, the web platform now gives us so much for free, like:
-* Powerful language features like Web Components that captures our preference for clean, component based development
-* Long-term, backwards compatibility support from the web platform itself
-* Favoring the use of polyfills over frameworks
-* Positive developer experiences to support rapid development leveraging familiar tools like Yarn, webpack, and Babel.
+### Mission
+The mission of **Project Evergreen** is to provide a web application blueprint for building dynamic, performant, and evergreen (naturally) web applications that are designed to be easy to understand and intuitive to use by both users and developers.
 
-Our goals are clear: _Be easy to write, be easy to maintain, and be easy to deploy._  
+_Be easy to write, be easy to maintain, and be easy to deploy.  Our users will appreciate it._  
 
-### Features and Motivations
+### Motivations
+The project's motivations are rooted in the fundamental belief that applications should be as standards compliant as possible to maximize the experience for users, developers, and businesses.  Of course we want great user experiences, but we consider that a given as a fundamental result of the time and effort we put into developing our applications in the first place.  
+
+### State of the Web
+With the current state of the web platform, we can now look to the web to give us a lot of the tooling and features we have often looked to libraries and frameworks to help us with.  The web is moving towards a persistently progressive app development environment that supports shared values like:
+* Having access to powerful language features like Web Components, ES Modules, and Classes that captures our preference for clean, component based development
+* Long-term, backwards compatibility support from the web platform itself and interoperability with the JavaScript ecosystem at large
+* Favoring the use of polyfills over frameworks, best practices, and modern UI patterns
+* Positive developer experiences to support rapid development by working with familiar development tools like Yarn, webpack, Babel, Redux, and more.
+
+### User Experience Goals
+Ultimately, our apps need to please our users.  Project Evergreen believes that all apps:
+* Lower the barrier to entry for all users
+* Only give users what they need, when they need it
+* Drive engagement through runtime performance and responsiveness
+
+### Objectives
 - Ideal for small to medium dynamic single page applications
 - Evergreen tooling to support Evergreen browsers
 - Modern JavaScript using ES2015+ (polyfills > frameworks)
@@ -22,6 +34,9 @@ Our goals are clear: _Be easy to write, be easy to maintain, and be easy to depl
 - Minimal Dependencies (polyfills > frameworks) and boilerplate
 - Like with Polymer, "Use the Platform"
 - Focus on Developer Experience for rapid development
+
+Note:
+Please see our [wiki](https://github.com/thegreenhouseio/project-evergreen/wiki) for information like usage, examples, and more.
 
 ### Outstanding Items
 1. [ ] [Unit testing / E2E Testing](https://github.com/thegreenhouseio/project-evergreen/issues/1)
@@ -34,8 +49,6 @@ Our goals are clear: _Be easy to write, be easy to maintain, and be easy to depl
 1. [ ] [Example w/ with Headless CMS](https://github.com/thegreenhouseio/project-evergreen/issues/8)
 1. [ ] [Progressive Web Application support / example](https://github.com/thegreenhouseio/project-evergreen/issues/9) 
 1. [ ] [Lighthouse compliant](https://github.com/thegreenhouseio/project-evergreen/issues/11)
-
-All features, configurations and workflows are documented on the [wiki](https://github.com/thegreenhouseio/open-webapp/wiki).
 
 ## Key Technologies
 1. [webpack](https://webpack.js.org/) - Module bundler for building the application
