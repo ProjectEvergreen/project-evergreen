@@ -51,6 +51,10 @@ Please see our [wiki](https://github.com/thegreenhouseio/project-evergreen/wiki)
 1. [ ] [Progressive Web Application support / example](https://github.com/thegreenhouseio/project-evergreen/issues/9) 
 1. [ ] [Lighthouse compliant](https://github.com/thegreenhouseio/project-evergreen/issues/11)
 
+Thoughts
+- WebAssembly example?
+- 
+
 ## Key Technologies
 1. [webpack](https://webpack.js.org/) - Module bundler for building the application
 1. [babel](https://babeljs.io/) - Write tomorrow's JavaScript today

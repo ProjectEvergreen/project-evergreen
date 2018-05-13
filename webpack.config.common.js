@@ -6,8 +6,7 @@ module.exports = {
   context: path.resolve('./src'),
 
   entry: {
-    index: './index',
-    vendor: './vendor'
+    index: './index'
   },
 
   output: {
