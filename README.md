@@ -23,6 +23,7 @@ Ultimately, our apps need to please our users.  Project Evergreen believes that 
 * Lower the barrier to entry for all users
 * Only give users what they need, when they need it
 * Drive engagement through runtime performance and responsiveness
+* Security and Trust
 
 ### Objectives
 - Ideal for small to medium dynamic single page applications
@@ -35,8 +36,8 @@ Ultimately, our apps need to please our users.  Project Evergreen believes that 
 - Like with Polymer, "Use the Platform"
 - Focus on Developer Experience for rapid development
 
-Note:
-Please see our [wiki](https://github.com/thegreenhouseio/project-evergreen/wiki) for information like usage, examples, and more.
+**Note**
+Please see our [wiki](https://github.com/thegreenhouseio/project-evergreen/wiki) for information about usage, examples, and more.
 
 ### Outstanding Items
 1. [ ] [Unit testing / E2E Testing](https://github.com/thegreenhouseio/project-evergreen/issues/1)

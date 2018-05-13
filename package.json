@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "description": "A frontend repository designed for lean, performant, and sustainable web applications.",
   "main": "./src/index.js",
-  "repository": "git@github.com:thegreenhouseio/open-webapp.git",
+  "repository": "git@github.com:thegreenhouseio/project-evergreen.git",
   "author": "Owen Buckley <owenbuckley13@gmail.com>",
   "license": "Apache-2.0",
   "scripts": {
