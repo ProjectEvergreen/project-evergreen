@@ -5,3 +5,8 @@
   flex-direction: column;
   box-sizing: border-box;
 }
+
+.view {
+  width: 60%;
+  font-size: 1.2rem;
+}
