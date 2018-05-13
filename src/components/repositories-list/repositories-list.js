@@ -29,7 +29,13 @@ class RepositoriesList extends HTMLElement {
 
   renderRepositoriesListItems() {
     return this._repositories.map((repo) => {
-      return html`<li><h3>${repo.name}</h3></li>`;
+      const githublink = `https://github.com/thegreenhouseio/${repo.name}`;
+
+      return html`
+        <li>
+          <h3><a href="${githublink}" target="_blank" rel="noopener">${repo.name}</a></h3>
+        </li>
+      `;
     });
   }
 
