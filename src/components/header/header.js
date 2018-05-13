@@ -15,7 +15,7 @@ class Header extends HTMLElement {
         ${css}
       </style>
       
-      <header>        
+      <header class="header">        
 
         <h2 class="header-text">The Greenhouse</h2>
         

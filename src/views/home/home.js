@@ -32,10 +32,10 @@ class Home extends HTMLElement {
 
       <div>
         
-        <h2 class="welcome-text-heading">Welcome to The Open Webapp Seed project!</h2>
+        <h2 class="welcome-text-heading">Project Evergreen</h2>
         
         <p class="welcome-text-body">
-          ${this.message}! This is a sample project to demonstrate a basic Open Webapp implementati  on. We hope you like it!</p>
+          ${this.message}! This is a sample project to demonstrate a basic webapp following Project Evergreen conventions. We hope you like it!</p>
         </p>
         
         <tgh-repositories-list class="repositories-list" repositories=></tgh-repositories-list>

@@ -9,12 +9,14 @@
   "scripts": {
     "build": "rimraf ./build && eslint *.js && webpack --config ./webpack.config.prod.js",
     "develop": "webpack-dev-server --config ./webpack.config.develop.js --open",
+    "release": "node release.js",
     "serve": "yarn run build && cd build && http-server"
   },
   "dependencies": {
     "lit-html": "^0.9.0"
   },
   "devDependencies": {
+    "aws-sdk": "^2.238.1",
     "babel-core": "^6.26.0",
     "babel-loader": "^7.1.2",
     "babel-preset-env": "^1.6.1",
