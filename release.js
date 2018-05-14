@@ -13,7 +13,7 @@ const AWS_REGION = 'us-east-1';
 const AWS_S3_BUCKET = 'project-evergreen.thegreenhouse.io';
 
 const AWS_CLOUDFRONT_DISTRIBUTION = {
-  ID: process.env.AWS_CLOUDFRONT_DISTRIBUTION_ID_PROJECT_EVERGREEN,
+  ID: process.env.AWS_CLOUDFRONT_DISTRIBUTION_ID,
   INVALIDATION_KEY: 'index.html',
   INVALIDATION_PATHS: ['/index.html']
 };
