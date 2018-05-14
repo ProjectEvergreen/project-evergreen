@@ -16,7 +16,7 @@ class Footer extends HTMLElement {
       </style>
       
       <footer>
-        <a href="https://www.thegreenhouseio.io">The Greenhouse.io</a>
+        <a href="https://www.thegreenhouseio.io">&copy; The Greenhouse.io 2018</a>
       </footer>
     `;
   }
