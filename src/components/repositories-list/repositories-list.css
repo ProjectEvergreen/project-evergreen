@@ -1,9 +1,0 @@
-:host {
-
-  & ol {
-    text-align: left;
-    width: 200px;
-    margin: 0 auto;
-  }
-  
-}
