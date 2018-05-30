@@ -2,9 +2,8 @@
 A frontend repository designed for lean, performant, and sustainable web applications. Inspired by the [Poylmer](https://www.polymer-project.org/) project.
 
 ## Overview
-The mission of **Project Evergreen** is to provide a future-forward, standards complient, web application blueprint for building dynamic, performant, and evergreen (naturally) web applications that are designed to be easy to understand and intuitive to use by both users and developers.
+The mission of **Project Evergreen** is to provide future-forward, standards complient resources for building dynamic, performant, and evergreen web applications that are designed to be easy to understand and intuitive to use by both users and developers.
 
-_Be easy to write, be easy to maintain, and be easy to deploy.  Our users will appreciate it._  
 > This repo stands as a general issue / feature tracker.
 
 ### State of the Web
@@ -17,12 +16,12 @@ With the current state of the web platform, we can now look to the web to give u
 ## Documentation
 Please see our [wiki](https://github.com/projectevergreen/project-evergreen/wiki) for information about usage, examples, documentation, and more.
 
-Visit our [website](https://project-evergreen.thegreenhouse.io/) for background information on the project's motivations and latest updates from the team.
+Visit our [website](https://project-evergreen.thegreenhouse.io/) for background information on the project's motivations and [follow us on Twitter](https://twitter.com/PrjEvergreen) to get the latest updates from the team.  The [source code](https://github.com/ProjectEvergreen/website) is written in Evergreen JS / CSS and so provides a nice introductory example of the project's goals.
 
 ## Roadmap
 In general our first couple goals are to:
 1. Build the website with "evergreen" JavaScript / CSS
-1. Create a TodoMVC example
+1. Create a [TodoMVC](https://github.com/tastejs/todomvc/blob/master/app-spec.md) example
 1. Build up documentation, examples, and use cases
 
 See our [projects](https://github.com/projectevergreen/project-evergreen/projects) and [milestones](https://github.com/projectevergreen/project-evergreen/milestones) to view our general Roadmap and priorities.
