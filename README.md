@@ -20,7 +20,7 @@ Visit our [website](https://project-evergreen.thegreenhouse.io/) for background 
 
 ## Roadmap
 In general our first couple goals are to:
-1. Build the website with "evergreen" JavaScript / CSS
+1. Build [the website](https://github.com/ProjectEvergreen/projectevergreen.github.io) with "evergreen" JavaScript / CSS
 1. Create a [TodoMVC](https://github.com/tastejs/todomvc/blob/master/app-spec.md) example
 1. Build up documentation, examples, and use cases
 
