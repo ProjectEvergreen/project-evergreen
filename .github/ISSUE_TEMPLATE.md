@@ -7,18 +7,16 @@
 - [ ] Other (please clarify below)
 
 ## Summary
-<!--
-Please provide as much detail as possible and refer to these samples when submitting an issue.
+<!-- Please provide as much detail as possible and refer to these samples when submitting an issue. -->
 
 ## Description
-<A new feature to show data from cool social media service>
+<!-- A new feature to show data from cool social media service -->
 
 ## Use Case
-<Propose the value, how would or should it be used / useful.>
+<!-- Propose the value, how would or should it be used / useful. -->
 
 ## Code Sample
-<code snippet>
+<!-- code snippet -->
 
 ## Pros / Cons
-<some comments regardint the strenghts / weaknesses>
--->
+<!-- some comments regardint the strenghts / weaknesses -->
