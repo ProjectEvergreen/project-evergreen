@@ -9,9 +9,6 @@
 ## Summary
 <!-- Please provide as much detail as possible and refer to these samples when submitting an issue. -->
 
-## Description
-<!-- A new feature to show data from cool social media service -->
-
 ## Use Case
 <!-- Propose the value, how would or should it be used / useful. -->
 
